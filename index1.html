@@ -2,13 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=<device-width>, initial-scale=1.0" name="viewport">
+    <link rel="stylesheet" href="assets/fontawesome/fontawesome-free-6.4.0-web/css/all.min.css">
     <title>Document</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
         * {
             margin: 0;
             padding: 0;
+            font-family: 'Ubuntu', sans-serif;
         }
 
         #main-dv {
@@ -49,6 +52,9 @@
 
         #side-bar {
             background-color: purple;
+            left: 0;
+            top: 0;
+            bottom:0 ;
             margin-right: 0;
             border-top: 6px;
             border: solid black;
@@ -81,10 +87,10 @@
             width: 83%;
             right: 0;
             top: 7%;
-            margin: 0 0 0 0 ;
+            margin: 0 0 0 0;
 
-            padding: 0 0 0 0 ;
-           /* border: 3px solid black;*/
+            padding: 0 0 0 0;
+            /* border: 3px solid black;*/
             border-top: 4px solid black;
             border-bottom: 0;
             display: block;
@@ -92,50 +98,52 @@
         }
 
 
-
-        #image-sec{
+        #image-sec {
             left: 0;
             top: 5px;
             margin: 0 0 0 0;
-            padding: 0px 0px 0px 0px ;
+            padding: 0px 0px 0px 0px;
             border: 3px solid #247a04;
-            height: 100% ;
+            height: 100%;
+            width: 33.3%;
             position: relative;
         }
 
-        #img-1{
+        #img-1 {
             /*left: 0;
             width: calc(100% / 3);*/
             display: inline;
-            padding: 0  0 0 0;
+            padding: 0 0 0 0;
             margin: 0 0 0 0;
             padding-right: 1px;
 
 
         }
-        #img-2{
+
+        #img-2 {
             display: inline;
-            padding: 0 0 0 0 ;
+            padding: 0 0 0 0;
             margin: 0 0 0 0;
         }
 
-        #img-3{
+        #img-3 {
             /*left: 0;
             width: calc(100% / 3 *2/3);*/
             display: inline;
             padding: 0 0 0 0;
-            margin: 0 0 0 0 ;
+            margin: 0 0 0 0;
         }
 
-        #para-sec{
+        #para-sec {
             top: 0;
             margin-top: 5%;
-            padding: 0 0 0 0 ;
+            padding: 0 0 0 0;
 
         }
 
 
-        footer{
+        footer {
+            text-align: center;
             background-color: gray;
             width: 100vw;
             height: 3vh;
@@ -149,13 +157,13 @@
 <main>
 
     <div id="main-dv">
-        <img class="ijse-logo" src="assets\png\ijseLogo.jfif" alt="ijseLogo" id="ijseLogo">
+        <img alt="ijseLogo" class="ijse-logo" id="ijseLogo" src="assets\png\ijseLogo.jfif">
 
         <div id="nav-bar">
             <ul id="nav-bar-ul">
-                <li class="nav-bar-li"><a link="#home"> Home</a></li>
-                <li class="nav-bar-li"><a link="#sevicese"> Sevicese </a></li>
-                <li class="nav-bar-li"><a link="#contacts"> Contacts</a></li>
+                <li class="nav-bar-li"> <i class="fa-solid fa-house"></i><a link="#home"> Home</a></li>
+                <li class="nav-bar-li"> <i class="fa-solid fa-laptop-file"></i><a link="#sevicese"> Sevicese </a></li>
+                <li class="nav-bar-li"> <i class="fa-regular fa-address-book"></i><a link="#contacts"> Contacts</a></li>
                 <li class="nav-bar-li"><a link="#about"> About Us</a></li>
             </ul>
         </div>
@@ -174,9 +182,9 @@
         <article>
 
             <section id="image-sec">
-                <div id="img-1"> <img src="assets/images/as1.jfif"> </div>
-                <div id="img-2"> <img src="assets/images/as3.jfif"> </div>
-                <div id="img-3"> <img src="assets/images/as2.jfif"> </div>
+                <div id="img-1"><img src="assets/images/as1.jfif"></div>
+                <div id="img-2"><img src="assets/images/as3.jfif"></div>
+                <div id="img-3"><img src="assets/images/as2.jfif"></div>
             </section>
 
             <section id="para-sec">
@@ -200,20 +208,28 @@
                     illum maxime mollitia qui! Alias atque aut debitis dolore eius, et expedita illum ipsam ipsum minus
                     nostrum nulla odio ullam.</p>
 
+                <p class="article-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos facere
+                    illum maxime mollitia qui! Alias atque aut debitis dolore eius, et expedita illum ipsam ipsum minus
+                    nostrum nulla odio ullam.</p>
+
+                <p class="article-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos facere
+                    illum maxime mollitia qui! Alias atque aut debitis dolore eius, et expedita illum ipsam ipsum minus
+                    nostrum nulla odio ullam.</p>
+                <p class="article-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos facere
+                    illum maxime mollitia qui! Alias atque aut debitis dolore eius, et expedita illum ipsam ipsum minus
+                    nostrum nulla odio ullam.</p>
+
             </section>
-
-
         </article>
-
 
     </div>
 
-        </div>
+    </div>
 
     </div>
 
     <footer>
-
+        <span> design by pakaya</span>
     </footer>
 
 </main>
